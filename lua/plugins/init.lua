@@ -13,6 +13,15 @@ return {
     end,
   },
 
+   {
+    "roobert/tailwindcss-colorizer-cmp.nvim",
+    config = function()
+      require("tailwindcss-colorizer-cmp").setup {
+        color_square_width = 2, -- Adjust width if needed
+      }
+    end
+  }
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
